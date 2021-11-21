@@ -1,0 +1,72 @@
+html, body {
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+  }
+   
+  .container {
+    background-color: rgb(206, 243, 165);
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 10px;
+    display: flex;
+  }
+
+.row{
+    width: 90%;
+    margin: 2% auto;
+    display: flex;
+    padding: 10px;
+    background-color: grey; 
+    border : solid;  
+}
+
+.col_1{ 
+    color: rgb(0, 0, 0);  
+    text-align: center;
+    width: 55%;
+    background-color: rgb(223, 217, 217);
+    margin: 10px;
+}
+
+.col_2{
+    text-align: center;
+    color: rgb(0, 0, 0);
+    width: 45%;
+    height: 400px;
+    background-color: rgb(187, 184, 184);
+    margin: 10px;
+}
+.product{
+    display: flex;
+    text-align: center;
+}
+img{
+    width: 75%;
+    height: 200px;
+}
+.prod_image{
+    width: 30%;
+    margin: auto;
+    border: solid;
+}
+.prod_info{
+    width: 60%;
+    text-align: center;
+    margin: auto;
+}
+
+.cart{
+    color: #000;
+    margin: auto;
+    text-align: center;
+    font-size: 20px;
+    padding: 10px;
+}
+
+.checkbox{
+    margin: 2px 40px;
+    display: flex;
+    font-weight: bold;
+}

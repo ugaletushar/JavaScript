@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="Style2.css"/>
+  </head>
+  <body id="body">
+    <div class="Container">
+      <div class="row">
+
+        <!-- Coloum to show all product -->
+          <div class="col_1" style="border: solid;">
+            <div>  
+              <h1 id="loader">Fetching Data wait few seconds...!</h1>
+              <!-- Div to take responce from javascript file -->
+              <div id="response"></div>
+            </div>
+          </div> 
+
+          <!-- Coloum to show all selected product -->
+          <div class="col_2" style="border: solid;">
+            <hr>
+            <h1 style="color:rgb(1, 53, 1);"> In Cart <hr></h1>  
+            <div id="cartitem"></div>
+            <!-- Div to take responce from javascript file -->
+            <div id="target-id"></div>
+          </div>
+      </div>
+    </div>
+  </body>
+  <script src="script2.js"></script>
+</html>
